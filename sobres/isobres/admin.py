@@ -1,0 +1,6 @@
+from django.contrib import admin
+from isobres.models import Sobre
+from isobres.models import Donor
+
+admin.site.register(Sobre)
+admin.site.register(Donor)
